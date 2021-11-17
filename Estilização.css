@@ -45,6 +45,9 @@ footer{
     text-align: center;
     line-height: 100px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 h2{
     color: rgb(6, 44, 128);
@@ -62,9 +65,7 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     border: 4px double rgba(0, 102, 255, 0.973);
-    background-color: rgb(118, 185, 240);
-    width: 80%;
-    height: ;
+    background-color: rgb(118, 185, 240);    
     padding: 10px;
     margin: 10px;
 }
@@ -112,4 +113,15 @@ table{
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: inherit;
+}
+.box{
+    position: fixed;
+    background-color: rgba(54, 116, 187, 0.808);
+    color: cornsilk;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    padding-left: 10px;
 }
