@@ -1,11 +1,11 @@
-table{
+table.principal{
     width: 100%;
     border-collapse:collapse;
     background-color: rgba(54, 116, 187, 0.849);
     border-color: darkblue;
     
 }
-div{
+//*div{
     
     text-align: center;
     background-color: rgb(252, 251, 246);
@@ -14,7 +14,7 @@ div{
     padding: 2px;
     margin: 12px;
 
-}
+}*//
 span{
     font-family:monospace
 }
@@ -51,26 +51,60 @@ h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
-div.simbolo{
+.simbolo{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     border: 10px outset rgb(80, 162, 230);
 }
-div.text_simbolo{
+.text_simbolo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     border: 4px double rgba(0, 102, 255, 0.973);
     background-color: rgb(118, 185, 240);
     width: 100%;
     height: ;
+     padding: 10px;
+    margin: 10px;
 }
-div.simbolo_video{
+.simbolo_video{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 560px;
     height: 315px;
     border: 10px outset rgb(80, 162, 230);
+}
+.mapa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 260px;
+    border: 10px outset rgb(80, 162, 230);
+}
+div.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    height: 315px;
+    border: 10px outset rgb(80, 162, 230);
+}
+.visited:visited{
+    color: goldenrod;
+}
+.iraty{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border: 10px outset rgb(80, 162, 230);
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border-color: darkblue;
 }
