@@ -108,3 +108,8 @@ table{
     border-collapse:collapse;
     border-color: darkblue;
 }
+.titulo{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+}
